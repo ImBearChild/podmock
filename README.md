@@ -1,23 +1,15 @@
 # Podmock
 
-![Docker Image CI](https://github.com/rhjhunt/fedora-mock/workflows/Docker%20Image%20CI/badge.svg)
+[\[中文/Chinese\]](./README.zh_cn.md)
 
 A mock container image built on Fedora.
 
 ## Pull
 
-You can pull from Quay.io:
+You can pull from Docker.io:
 
 ```terminal
-podman pull quay.io/rhjhunt/fedora-mock
-```
-
-You can also build your own:
-
-```terminal
-git clone https://github.com/rhjhunt/fedora-mock.git
-cd fedora-mock
-buildah bud -t rhjhunt/fedora-mock .
+podman pull docker.io/imbearchild/podmock
 ```
 
 ## Run
